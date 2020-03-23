@@ -1,0 +1,81 @@
+2020-03-22 07:45:17.406  INFO 12020 --- [main] o.k.l.LoadGenerateApplication            : Starting LoadGenerateApplication on INFHYSZBL262 with PID 12020 (D:\RT_Services\plt-realtime-event-generator\loadgenerator-demo\target\classes started by 10668886 in D:\RT_Services\plt-realtime-event-generator\loadgenerator-demo)
+2020-03-22 07:45:17.437  INFO 12020 --- [main] o.k.l.LoadGenerateApplication            : No active profile set, falling back to default profiles: default
+2020-03-22 07:45:20.095  INFO 12020 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$6c758be7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-22 07:45:20.144  INFO 12020 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$1843c796] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-22 07:45:21.818  INFO 12020 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-22 07:45:21.870  INFO 12020 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-22 07:45:21.871  INFO 12020 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-03-22 07:45:21.888  INFO 12020 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_221\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_221/bin/server;C:/Program Files/Java/jre1.8.0_221/bin;C:/Program Files/Java/jre1.8.0_221/lib/amd64;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files (x86)\Windows Imaging\;C:\Program Files\Java\jdk1.8.0_221\bin;D:\Softwares\apache-maven-3.6.3\bin;D:\kafka_2.12-2.4.0\bin;C:\Program Files\WSO2\Enterprise Integrator\7.0.2\micro-integrator\\bin;C:\Program Files\WSO2\Enterprise Integrator\7.0.2\streaming-integrator\\bin;C:\Users\10668886\AppData\Local\Microsoft\WindowsApps;C:\Users\10668886\AppData\Local\Programs\Git\cmd;C:\Users\10668886\AppData\Local\Box\Box Edit\;C:\Users\10668886\Desktop;;.]
+2020-03-22 07:45:22.082  INFO 12020 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-22 07:45:22.083  INFO 12020 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4503 ms
+2020-03-22 07:45:22.244  INFO 12020 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-03-22 07:45:22.251  INFO 12020 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-22 07:45:22.251  INFO 12020 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-22 07:45:22.252  INFO 12020 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2020-03-22 07:45:22.252  INFO 12020 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-22 07:45:22.458  INFO 12020 --- [main] o.k.l.service.DynamicScheduler           : Re-Activating Scheduler
+2020-03-22 07:45:22.744  INFO 12020 --- [main] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+
+2020-03-22 07:45:22.856  INFO 12020 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version : 2.0.0
+2020-03-22 07:45:22.856  INFO 12020 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId : 3402a8361b734732
+2020-03-22 07:45:23.058  INFO 12020 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.Metadata        : Cluster ID: GISQ3TrZTLO1ZLJnxEg3HA
